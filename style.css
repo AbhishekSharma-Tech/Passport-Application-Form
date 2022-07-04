@@ -1,0 +1,85 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap'); */
+
+* {
+    margin: 5px;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    /* background: linear-gradient(#141e30, #243b55); */
+}
+
+.mainBody {
+    display: flex;
+    justify-content: stretch;
+    /* width: 100%; */
+}
+
+.boxing {
+    border: 2px solid rgb(202, 202, 202);
+    margin-bottom: -5px;
+    display: flex;
+}
+
+.boxingChild {
+    display: inline-block;
+    text-align: center;
+}
+
+.boxingChild:first-child {
+    padding-top: 10px;
+}
+
+.boxingChild p {
+    text-align: left;
+}
+
+/* form {
+    display: flex;
+    overflow: hidden;
+
+} */
+
+
+
+h4 {
+    background-color: rgb(202, 202, 202);
+}
+
+/* label {
+    display: inline-block;
+    width: 200px;
+    margin-right: 30px;
+    text-align: left;
+} */
+
+.alignLabel label {
+    display: inline-block;
+    width: 400px;
+    margin-right: 30px;
+    text-align: left;
+}
+
+.selfDeclaration {
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+
+.otherDetails {
+    width: 100%;
+    height: auto;
+}
+
+.details {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+/* .details input[type="radio"] {
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
+} */
